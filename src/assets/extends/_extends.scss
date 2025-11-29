@@ -1,0 +1,25 @@
+%container {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(12px, 4vw, 48px);
+    padding-right: clamp(12px, 4vw, 48px);
+
+    @include mobileView {
+        padding-left: 12px;
+        padding-right: 12px;
+        max-width: none;
+    }
+
+    @include desktopView {
+        max-width: $desktop;
+        padding-left: clamp(16px, 3vw, 40px);
+        padding-right: clamp(16px, 3vw, 40px);
+    }
+
+    @include largeDesktopView {
+        max-width: $large-desktop;
+    }
+}
+

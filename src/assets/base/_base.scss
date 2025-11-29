@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+
+    &-thumb {
+        background: #888;
+        border-radius: 10px;
+        z-index: 99;
+
+        &:hover {
+            background: $mainColor;
+        }
+
+    }
+
+    &-track {
+        background: transparent;
+    }
+}
