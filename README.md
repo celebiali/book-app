@@ -28,7 +28,7 @@ Bu proje, kişisel bir kitap koleksiyonunu takip etmek amacıyla geliştirilmiş
 - Ekleme ve güncelleme formları:
   - `AddBookForm.vue` — yeni kitap ekleme formu (kapak yükleme, WebP dönüşümü).
   - `UpdateBookForm.vue` — seçili kitabın bilgilerini güncelleme.
-- Varsayılan kapak görseli: `src/assets/img/book_img.png`.
+- Varsayılan kapak görseli: `src/assets/img/book_img.webp`.
 
 ## Önemli dosya / klasör yapısı
 - `src/App.vue` — uygulama ana bileşeni, modal mount noktası

@@ -51,7 +51,7 @@ import UnFavoriteIcon from "@/components/icons/UnFavoriteIcon.vue";
 import UserIcon from "@/components/icons/UserIcon.vue";
 import DocumentIcon from "@/components/icons/DocumentIcon.vue";
 import BaseButton from "@/components/shared/BaseButton.vue";
-import defaultCover from "@/assets/img/book_img.png";
+import defaultCover from "@/assets/img/book_img.webp";
 import { useUiStore } from "@/stores/ui";
 
 export default defineComponent({
